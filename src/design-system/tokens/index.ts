@@ -1,5 +1,5 @@
 export const containers = {
-  default: 1540,
+  default: 800,
 };
 
 export {

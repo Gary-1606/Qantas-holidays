@@ -8,8 +8,8 @@ const tokens = {
     default: "#323232",
     inverse: "#ffffff",
     subtle: "#666666",
-    red: "e40000",
-    green: "008a1f",
+    red: "#ae0505",
+    green: "#008a1f",
   },
   icon: {
     yellow: "FBCB3B",

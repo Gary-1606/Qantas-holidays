@@ -10,6 +10,15 @@ export const iconWrapper = style({
   position: "relative",
 });
 
+export const iconWrapperStar = style({
+  width: "14px",
+  height: "14px",
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
+  position: "relative",
+});
+
 export const icon = style({
   position: "absolute",
   top: 0,

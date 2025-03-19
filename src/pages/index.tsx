@@ -1,11 +1,7 @@
 import Head from "next/head";
-import {
-  VerticalStack,
-  Text,
-  Heading,
-  Container,
-  StarRating,
-} from "@/design-system/components";
+import { VerticalStack, Container } from "@/design-system/components";
+import { Header } from "@/components/Header";
+import { HotelListing } from "@/components/Listings/HotelListing";
 
 export default function Home() {
   return (
@@ -18,14 +14,19 @@ export default function Home() {
       </Head>
       <main>
         <Container>
-          <VerticalStack>
+          <VerticalStack gap={20}>
+            <Header />
+            <HotelListing />
+          </VerticalStack>
+
+          {/* <VerticalStack>
             <StarRating rating={3.5} type="star" />
             <StarRating rating={4.5} type="self" />
             <StarRating rating={1} type="star" />
             <StarRating rating={3} type="self" />
             <Heading>Checking</Heading>
             <Text>Working now</Text>
-          </VerticalStack>
+          </VerticalStack> */}
         </Container>
       </main>
     </>

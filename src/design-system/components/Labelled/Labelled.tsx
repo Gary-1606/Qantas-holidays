@@ -31,9 +31,9 @@ const Label: FC<LabelProps> = ({ id, children }) => {
 
 export const Labelled: FC<Props> = ({ id, label, children }) => {
   return (
-    <VerticalStack gap={4}>
+    <HorizontalStack gap={4}>
       <Label id={id}>{label}</Label>
       {children}
-    </VerticalStack>
+    </HorizontalStack>
   );
 };

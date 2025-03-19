@@ -2,19 +2,18 @@ import { style } from "@vanilla-extract/css";
 import { responsiveStyle } from "../../utils/responsiveStyle";
 import { spacings } from "../../tokens";
 import { containers } from "../../tokens";
+import tokens from "@/design-system/tokens/tokens";
 
 export const containerStyles = style({
   width: "100%",
-  paddingLeft: spacings[16],
-  paddingRight: spacings[16],
+  height: "100%",
+  padding: spacings[16],
   ...responsiveStyle({
     md: {
-      paddingLeft: spacings[24],
-      paddingRight: spacings[24],
+      padding: spacings[24],
     },
     xl: {
-      paddingLeft: spacings[40],
-      paddingRight: spacings[40],
+      padding: spacings[40],
     },
   }),
 });
@@ -24,4 +23,5 @@ export const container = style({
   marginLeft: "auto",
   marginRight: "auto",
   width: "100%",
+  height: "100%",
 });
