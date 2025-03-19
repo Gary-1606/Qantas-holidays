@@ -1,7 +1,6 @@
 import type { FC, ReactNode } from "react";
 import { Text } from "../Text";
 import { HorizontalStack } from "../HorizontalStack";
-import { VerticalStack } from "../VerticalStack";
 
 type Props = {
   /** A unique identifier for the label */

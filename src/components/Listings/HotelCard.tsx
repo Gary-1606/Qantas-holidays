@@ -7,7 +7,6 @@ import {
 } from "@/design-system/components";
 import React, { FC } from "react";
 import * as styles from "./HotelCard.css";
-import { wrap } from "lodash";
 
 type Props = {
   hotel: HotelResult;
