@@ -1,1 +1,1 @@
-export { Labelled, helpTextID, errorID } from "./Labelled";
+export { Labelled } from "./Labelled";
