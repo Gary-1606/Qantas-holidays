@@ -76,7 +76,7 @@ This is the web app structure
 
 ## Overview
 
-This project implements a hotel search results page for Qantas Hotels, featuring sorting options and a custom-built star rating component. The goal was to create a scalable, accessible, and well-tested application while keeping development efficient within the given timeframe.
+This project implements a hotels listing page for Qantas Hotels, featuring sorting options and a custom-built star rating component. The goal was to create a scalable, accessible, and well-tested application while keeping development efficient within the given timeframe.
 
 ## Approach & Trade-offs
 
